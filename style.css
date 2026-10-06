@@ -1,0 +1,234 @@
+body{
+    font-family:  'Prompt', sans-serif;
+    width: 1920px;
+    background-image: url(pictures/fon2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    
+}
+.container-header{
+    width: 1386px;
+    margin: 0 auto;
+}
+.items-header{
+    
+}
+.info{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 71px;
+    color: rgb(255, 248, 220);
+    
+}
+.logo-right{
+    font-size: 37px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/**********************************************************FIRST SECTION*******************************************************************/
+
+.first{
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(255, 248, 220, 0.6);
+    border-radius: 5px;
+}
+.items-first{
+    display: flex;
+    justify-content: space-between;
+}
+/*********sidebar*************/
+.sidebar-left{
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: -5px -5px 25px rgba(63, 63, 63, 0.9);
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.apps:hover{
+    background: rgba(255, 248, 220, 0.6);
+}
+.lib:hover{
+    background: rgba(255, 248, 220, 0.6);
+}
+.audio:hover{
+    background: rgba(255, 248, 220, 0.6);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    font-size: 23px;
+    line-height: 32px;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+    text-align:center
+}
+li a{
+    color:black;
+    text-decoration: none;
+}
+li:hover{
+    background-color:honeydew;
+    opacity: 1;
+    border: 1px solid grey;
+}
+a:hover{
+    color:blue;
+}
+ul h3{
+    text-align: center;
+    margin: 15px;
+    font-size: 23px;
+    border-top: 1px solid grey;
+}
+.content1{
+    
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    
+}
+.about img{
+    box-shadow: -5px -5px 25px rgba(63, 63, 63, 0.9);
+}
+.about p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/***********************************************************Second section**********************************************/
+
+.items-second{
+    margin-top: 20px;
+}
+.items-second h2{
+    color:cornsilk;
+    margin: 20px;
+    padding: 40px;
+    font-size: 40px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    box-shadow: -5px -5px 25px rgba(63, 63, 63, 0.9);
+    background-image: url(pictures/fon2.jpg);
+    background-position:left;
+    align-items: center;
+}
+.recomendation h3{
+    margin: 22px;
+    padding: 0 0 0 40px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(226, 43, 43);
+    border-top: 1px solid rgb(226, 43, 43);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(240, 142, 14);
+    background: rgba(255, 248, 220, 0.6);
+    text-align: center;
+}
+.rec-items{
+    display: flex;
+    justify-content: space-between;
+}
+.rec-game{
+    width: 345px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: -5px -5px 25px rgba(63, 63, 63, 0.9);
+}
+.rec-game a{
+    text-decoration: none;
+    color: black;
+}
+.rec-game:hover{
+    background: rgba(255, 248, 220, 0.6);
+    box-shadow: 0px 0px 15px rgb(240, 142, 14);
+}
+.rec-game img{
+    padding-top: 15px;
+    width: 320px;
+    height: 240px;
+}
+.rec-game h5{
+    font-size: 23px;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 5px 8px rgb(240, 142, 14);
+}
+.rec-game p{
+    text-align: start;
+    padding: 15px;
+}
+.progs-h3{
+    border-bottom: 1px solid rgb(0, 35, 231) !important;
+    border-top: 1px solid rgb(0, 35, 231) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(240, 14, 191) !important;
+    background: rgba(255, 248, 220, 0.6);
+}
+.prog h5{
+    font-size: 23px;
+    border-bottom: 1px solid rgb(0, 35, 231);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 5px 8px rgb(240, 14, 191);
+}
+.prog:hover{
+    background: rgba(255, 248, 220, 0.6);
+    box-shadow: 0px 0px 15px rgb(240, 14, 191);
+}
+
+/*************************books***********************************/
+
+.books-h3{
+    border-bottom: 1px solid rgb(0, 146, 231) !important;
+    border-top: 1px solid rgb(0, 146, 231) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(5, 241, 17) !important;
+    background: rgba(255, 248, 220, 0.6);
+}
+.books h5{
+    font-size: 23px;
+    border-bottom: 1px solid rgb(0, 146, 231);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 5px 8px rgb(5, 241, 17);
+}
+.books:hover{
+    background: rgba(255, 248, 220, 0.6);
+    box-shadow: 0px 0px 15px rgb(5, 241, 17);
+}
+
+/***********************************************************FOOTER*********************************************************/
+
+footer{
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+}
+.about-foot a{
+    color:wheat;
+}
